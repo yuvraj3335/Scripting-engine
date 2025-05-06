@@ -1,0 +1,31 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+
+target/ *.jar *.war *.ear
+
+.m2/
+*.log
+
+.idea/ *.iml
+
+.classpath .project .settings/ bin/
+
+
+nbproject/ dist/
+*.class
+*~ *.swp *.swo
+.DS_Store
+
+Thumbs.db
+
+.env *.local
+
+coverage/ test-output/ junit-reports/
+
+native-image/ graalvm-config/ META-INF/native-image/
+
+
+
+*.bak *.tmp
