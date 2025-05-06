@@ -117,6 +117,30 @@ Object pyMath = ScriptEngineUtil.runScript("python", "import math\nmath.sqrt(16)
 // From File
 Object fileResult = ScriptEngineUtil.runScriptFromFile("js", "src/main/java/com/example/scripts/example.js");
 
+### Example Output
+Running JavaScript examples...
+JavaScript: 1 + 2 = 3
+JavaScript: sqrt(16) = 4.0
+JavaScript from file: 25
+
+Running Python examples...
+Python: 1 + 2 = 3
+Python: sqrt(16) = 4.0
+Python from file: 25
+
+## 🛠️ Troubleshooting
+
+### 1. ⚠️ Performance Warning
+
+
+- ✅ Use **GraalVM JDK 21**.
+- ✅ Or run with:
+  ```bash
+  -Dexec.args="-XX:+EnableJVMCI"
+
+   **Java Version: 21 (Recommended: GraalVM JDK 21)**.
+
+
 
 
 
